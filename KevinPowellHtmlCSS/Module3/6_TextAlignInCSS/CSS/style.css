@@ -1,0 +1,38 @@
+
+/* 
+    So in the past people used to use
+    left, right, center,
+    but these days we use
+    start, end, and center
+    WHY? Because theres languages like
+    arabic and english some start
+    right to left others left to right
+    by changing the dir attribute in the
+    html tag, you can reorient the site
+    dynamically. Much better then left/right/center
+    therefore we use start/end/center
+*/
+
+h1{
+    color: #4676A9;
+    text-align: center;
+}
+
+h2{
+    color: #CB731C;
+}
+
+h3{
+    color: #CB731C;
+}
+
+p{
+    color: black;
+}
+
+footer{
+    background-color: #22466C;
+    color: #ffffff;
+    text-align: center;
+}
+

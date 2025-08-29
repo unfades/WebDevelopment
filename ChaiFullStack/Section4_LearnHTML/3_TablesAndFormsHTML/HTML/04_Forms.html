@@ -1,0 +1,82 @@
+<!-- avanced level sdes like sde2 and 3 know more stuff on html, but dw we will get to know that later too-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--this is css styling within the same html file, cascading style sheets-->
+    <style>
+    textarea{
+    resize: none;
+    }
+    </style>
+    <!-- tried this myself below for the body easy on my eyes not sure if its right tho,
+    the chai king does this too lul-->
+    <style>
+        body{
+            background-color: black;
+            color: whitesmoke;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Login Form</center></h1>
+    <form>
+        <center>
+            <label for="email">
+                email:
+                <input type="text" name = "email">
+            </label>
+            <label for="password">
+                password:
+                <input type="password" name="password" id="">
+            </label>
+            <button type="submit" name="login">Login</button>
+        </center>
+    </form>
+
+    <div>
+        <h2><center>Learning Form</center></h2>
+        <form>
+            <center>
+            <label for="Email">
+                Email:
+                <input type="email" name="email" id="">
+            </label>
+            <button type="submit">submit</button>
+            </center>
+        </form>
+    </div>
+    <div>
+        <h2><center>Learning Form</center></h2>
+        <center><b>Comments:</b></center>
+        <center>
+            <label for="Comments">
+                <!-- hover over anything to learn about it in MDN-->
+                <textarea name="" id="" rows="5" cols="50"></textarea>
+            </label>
+        </center>
+        <form>
+            <center>
+            <label for="Games">
+                metal slug: <input type="checkbox" name="metal slug series" id="">
+                street figher: <input type="checkbox" name="street fighter series" id="">
+            </label>
+            <label for="Outdoor Games">
+                <select name="Outdoor Games" id="">
+                    <option value="Baseball">Baseball</option>
+                    <option value="Basketball">Basketball</option>
+                </select>
+            </label>
+
+            <label for="month">
+                Month: <input type="month" name="month" id="">
+                Color: <input type="color">
+            </label>
+            <button type="submit">submit</button>
+            </center>
+        </form>
+    </div>
+</body>
+</html>

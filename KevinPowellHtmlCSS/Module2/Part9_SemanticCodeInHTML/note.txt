@@ -1,0 +1,36 @@
+Typical page structure
+Inside of the <body>, most pages will have a structure that looks a bit like this:
+----------------------------------------------------------------------------------
+html,head,close head
+then...
+like this
+this is semantic html
+like ordered html like how people organize stuff
+
+<body>
+  <header>
+    <!-- logo + navigation -->
+  </header>
+  
+  <main>
+    <!-- the majority of the content -->
+    <section> <!-- a section of content --> </section>
+    <section> <!-- another section of content --> </section>
+    <section> <!-- yet another --> </section>
+  </main>
+  
+  <footer>
+    <!-- copyright, sometimes another nav
+         social links, contact, etc. -->
+  </footer>
+</body>
+------------------------------------------------------
+An important note about <section> elements:
+I like using sections, as I find it makes things more 
+clear within my own code, but they aren’t required.
+As we talked about already, our heading levels are what
+create the structure of our content.
+Proper use of heading levels is what matters, 
+and sections are there more for your own organization.
+
+Also for naming keep it all lowercase and hyphenate instead of spaces

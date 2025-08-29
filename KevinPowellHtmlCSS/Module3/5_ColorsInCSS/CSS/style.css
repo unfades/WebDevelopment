@@ -1,0 +1,53 @@
+
+/* This file is linked to homepage-linked, in its head,
+we mentioned that with the link tag check it out
+
+we are putting rules,
+inside them theres properties,
+then giving em values
+
+body is the rule,
+background-color is the property
+and black is the value I gave
+
+best practices are to type the selector
+curlybrace enter,
+then tab and write the properties and give them values each on a new line
+for best readability.
+
+also I learned how divs work online, you make a div
+attribute class = "a-class-name-i-chose"
+
+then in the css file
+
+.a-class-name-i-chose{
+
+all the stuff you apply gets applied to that then straight up isolating elements
+
+}
+
+
+*/
+
+h1{
+    color: #4676A9;
+    text-align: center;
+}
+
+h2{
+    color: #CB731C;
+}
+
+h3{
+    color: #CB731C;
+}
+
+p{
+    color: black;
+}
+
+footer{
+    background-color: #22466C;
+    color: #ffffff;
+}
+

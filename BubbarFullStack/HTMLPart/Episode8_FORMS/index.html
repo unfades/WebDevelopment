@@ -1,0 +1,126 @@
+<!-- Q What are forms
+
+A Forms are structures that gather data
+its a means for an input
+in order for that data to be stored, processed, or used in business logic
+
+We all know the common form login id, password, submit
+That is a common form we all know of
+
+Summary, Forms are for user input.
+
+tags which are available
+then form elements
+then input elements after is the plan.
+
+<form> tag just like the table tag,
+its purpose is for making a form
+for getting user input
+the rest of the stuff is inside the form tag
+
+the second tag is input tag,
+ut comes in many variations
+radio buttons, checkbox, date pickers,
+theres lots of ways to take input using
+the input tag this way.
+
+now label tag is the third tag
+
+means what re we supposed to input
+that is the label. it tells what the data
+is that e want entered, labels what to enter in.
+
+every label has a for attribute
+it needs to be completed for sure.
+what goes inside the for attribute
+is the input id value and thats it.
+
+label's for and input's id must be the exact same
+why? because to link those.
+
+now e are making a little project using these tags.
+in order for that data to be stored, processed, or used in business logic -->
+
+<!-- FORM TAGS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <!-- LETS CODE -->
+        <form action="">
+
+            <label for="email">Enter email ID :</label>
+            <input type="text" id="email"><br />
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password"><br />
+            <!-- Bubbars -->
+            <input type="submit" value="submit"><br />
+            <br />
+            <!-- possible -->
+            <button>submit</button>
+            <br />
+            <br />
+            <!-- Notice when clicked everything is getting reset... -->
+            <!-- so you can use both ways to make buttons like this or like that -->
+            <button>Click me</button>
+            <br />
+            <br />
+            <input type="submit" value="Click me">
+        </form>
+
+        <!-- input tags can be of many types,
+        type = "(value)"
+        where value can be:
+        text for entry of text
+        radio for selecting circle dot entries
+        checkbox for checkboxes to tick
+        date for date entering 
+        
+        for knowing which is linked to what label, we need its 'id' attribute
+        id is linked to label's 'for' attribute-->
+        <!-- example -->
+        <label for="myname">Enter your name</label>
+        <input type="text" id = "myname">
+
+        <!-- in the server, theres something listening for submit specifications,
+        we can mention the type is submit in either the type = "submit" that means
+        for the whole form, it is the submit button for that form...
+        we can also specify this in the <form action =""> action attribute, or
+        within the buttons we make-->
+        
+        <!-- You can also put in placeholder text with the placeholder attribute like this -->
+        <br />
+        <br />
+        <label for="username">Username:</label>
+        <input type="text" id = "username" placeholder="abc@gmail.com">
+        <br />
+        <br />
+        <label for="pass">Enter your password:</label>
+        <input type="password" id = "pass" placeholder="length 1-16 characters">
+
+        <!-- Theres so much, you gotta visit MDN to learn more, it will take years to know it all -->
+        
+        <br />
+        <br />
+        <!-- Now fieldset and legend,
+        we use fieldset and legend to specify that a lot of elements are related to each other, 
+        like male, female, other, is gender label-->
+        <!-- Now Moved on to one.html -->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

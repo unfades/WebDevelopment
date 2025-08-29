@@ -1,0 +1,28 @@
+
+HTML used to be a way for this scientist Tim Lee to communicate with his scientist colleagues.
+Later this was then used as a base as how the internet should communicate with each other, a
+foundation for the world wide web.
+
+The idea was that we are gonna have some tags.
+Almost all of the tags are acting as containers.
+For almost every tag, it starts, then ends.
+<head></head>.. for heading tags
+<h1></h1> for headings...
+<p></p> for paragraphs.
+
+We can assume the starting tag has an ending tag for most tags so we will just use starting tags.
+
+<body></body> this is the body portion, this is for the body
+
+inside a body can be headings, paragraphs, etc
+
+<body>
+    <h1>
+        <p>Kinda like this I guess...</p>
+    </h1>
+
+</body>
+
+Containers containers..
+
+Now lets write some code.

@@ -1,0 +1,46 @@
+
+/*  
+    font-family: + fontsyouwant enclosed in ' ';
+    is the property for the fonts you want in your
+    CSS so to make pages beautiful with fonts,
+    we use that, and if one font is not working,
+    then next font is gonna get used,
+    its pretty much a hierarchy of fonts.
+
+    This concept is the concept of fallbacks in terms
+    of fonts.
+    A bunch of these fonts are a font stack.
+
+*/
+
+h1{
+    color: #4676A9;
+    text-align: center;
+    font-family:'Courier New', 'Courier', 'monospace';
+}
+
+h2{
+    color: #CB731C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    color: #CB731C;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-color: #22466C;
+    color: #ffffff;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

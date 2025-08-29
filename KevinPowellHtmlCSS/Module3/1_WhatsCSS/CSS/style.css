@@ -1,0 +1,30 @@
+
+/* This file is linked to homepage-linked, in its head,
+we mentioned that with the link tag check it out
+
+we are putting rules,
+inside them theres properties,
+then giving em values
+
+body is the rule,
+background-color is the property
+and black is the value I gave
+
+best practices are to type the selector
+curlybrace enter,
+then tab and write the properties and give them values each on a new line
+for best readability.
+*/
+body{
+    background-color: black;
+    color: #efefef;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+}

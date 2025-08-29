@@ -1,0 +1,52 @@
+<!--void elements-->
+<!--p are not void elements because they have this content within them-->
+<p>This is a paragraph</p>
+
+<!-- elements like br(line break) and hr(horizontal rule) are void elements because arent allowed to have stuff in em-->
+<!--
+<hr/>
+<br/>
+-->
+
+<p>Yuh paragraph1 this is paragraph 1</p>
+<hr/> <!-- a horizontal line-->
+<p>Yuh paragraph2 this is another paragraph</p>
+<!-- br usage below first without br-->
+<p>
+    A poem line 1,
+    A poem's second line,
+    A poem's 3rd line,
+    A poem's 4th line.
+</p>
+<!-- now with br as seen below properly with break tags-->
+<p>
+    A poem line 1,<br/>
+    A poem's second line,<br/>
+    A poem's 3rd line,<br/>
+    A poem's 4th line.<br/>
+</p>
+
+<!-- Yu protip-->
+
+<p>Don't do this!</p>
+
+<p>
+    paragraph1<br />
+    paragraph2<br />
+</p>
+
+<!-- DO THIS-->
+
+<p>paragraph1</p>
+<p>paragraph2</p>
+
+<!--Why because people with accessibility issues find it easier to get stuff read that way-->
+<!--only use those breaks where needed like poem writing, addresses, formatting a specific way,
+not for paragrahs!-->
+
+<p>These days writing hr and br without / is ok </p>
+<hr> 
+is okay
+<br>
+is also okay
+but for u write with / tip from angela

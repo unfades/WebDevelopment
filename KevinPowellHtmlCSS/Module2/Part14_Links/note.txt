@@ -1,0 +1,15 @@
+Typical page structure
+Inside of the <body>, most pages will have a structure that looks a bit like this:
+----------------------------------------------------------------------------------
+while linking stuff....
+
+
+THIS IS NOT RIGHT, A LOT OF WEBSITES DO IT BUT NAH THIS AINT RIGHT ACCORDING TO KEVIN POWELL
+<p>You can head on over <a href="services.html">here</a> to learn more about our pest control services.</p>
+
+THIS IS RIGHT, Get it now?
+<p>Find out more <a href="services.html">about our pest control services</a>.</p>
+
+------------------------------------------------------
+The text inside the link should tell people everything they need to know about where that link goes,
+ so even if I skip the rest of the text in the paragraph, I should know where that link is taking me.

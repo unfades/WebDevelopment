@@ -1,0 +1,59 @@
+Color values
+
+When declaring a color, we can use a lot of different types of values:
+    keywords
+    hex codes
+    rgb values
+    hsl values
+    and more
+
+We're better off using hex or rgb values
+etc because just plain old colors provided
+they dont hit so hard do they c;
+
+Hexcode:
+As a programmer, you already know hexcode
+from that codewars problem
+
+One of the most common ways you’ll see colors declared is with hex codes, which look like this: #6a3bff.
+They always start with a #, and are then followed by 6 letters or numbers.
+
+RGB and HSL:
+
+red green blue and also hue saturation lightness
+you know this already as an artist you can tweak
+to your liking c;
+
+NOW,
+The colors we’ll be using
+
+We’ll be making some tweaks here a little bit later, but for now, we can use these colors:
+
+    The <h1> should be #4676A9.
+    The other headings are #CB731C.
+    The footer uses #22466C for the background, and the text color should be #ffffff 
+    (select the footer to apply these styles, and not the paragaph inside of it).
+
+
+NOTE: IN CSS, ORDER MATTERS
+
+So if you write a color property inside css twice, the last one wins
+
+same goes for selectors
+
+example:
+
+p{
+    background-color: green;
+    background-color: black; /* It will then be black as its the last one property defined*/
+}
+
+p{
+    background-color: green;
+}
+
+p{
+    background-color: black;
+}
+
+/* again black wins as its the last p selector and its property val is black*/

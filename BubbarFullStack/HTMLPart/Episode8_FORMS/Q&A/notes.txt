@@ -1,0 +1,42 @@
+Q What are forms
+
+A Forms are structures that gather data
+its a means for an input
+in order for that data to be stored, processed, or used in business logic
+
+We all know the common form login id, password, submit
+That is a common form we all know of
+
+Summary, Forms are for user input.
+
+tags which are available
+then form elements
+then input elements after is the plan.
+
+<form> tag just like the table tag,
+its purpose is for making a form
+for getting user input
+the rest of the stuff is inside the form tag
+
+the second tag is input tag,
+ut comes in many variations
+radio buttons, checkbox, date pickers,
+theres lots of ways to take input using
+the input tag this way.
+
+now label tag is the third tag
+
+means what re we supposed to input
+that is the label. it tells what the data
+is that e want entered, labels what to enter in.
+
+every label has a for attribute
+it needs to be completed for sure.
+what goes inside the for attribute
+is the input id value and thats it.
+
+label's for and input's id must be the exact same
+why? because to link those.
+
+now e are making a little project using these tags.
+in order for that data to be stored, processed, or used in business logic

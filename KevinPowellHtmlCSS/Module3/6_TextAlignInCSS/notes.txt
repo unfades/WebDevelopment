@@ -1,0 +1,33 @@
+
+p{
+    background-color: green;
+    background-color: black; /* It will then be black as its the last one property defined*/
+    text-align: end;
+}
+
+p{
+    background-color: green;
+    text-align: start;
+}
+
+p{
+    background-color: black;
+    text-align: center;
+}
+
+If ever you’re working on a multi-lingual website,
+logical properties offer us an easy way to ensure 
+you have the right text alignment no matter what 
+language the site is using.
+---------------------------------------------------
+So in the past people used to use
+left, right, center,
+but these days we use
+start, end, and center
+WHY? Because theres languages like
+arabic and english some start
+right to left others left to right
+by changing the dir attribute in the
+html tag, you can reorient the site
+dynamically. Much better then left/right/center
+therefore we use start/end/center

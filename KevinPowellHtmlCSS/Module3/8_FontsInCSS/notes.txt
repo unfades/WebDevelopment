@@ -1,0 +1,30 @@
+
+p{
+    background-color: green;
+    background-color: black; /* It will then be black as its the last one property defined*/
+    text-align: end;
+}
+
+p{
+    background-color: green;
+    text-align: start;
+}
+
+p{
+    background-color: black;
+    text-align: center;
+}
+
+font-family: + fontsyouwant enclosed in ' ';
+---------------------------------------------------
+font-family: + fontsyouwant enclosed in ' ';
+    is the property for the fonts you want in your
+    CSS so to make pages beautiful with fonts,
+    we use that, and if one font is not working,
+    then next font is gonna get used,
+    its pretty much a hierarchy of fonts.
+
+    This concept is the concept of fallbacks in terms
+    of fonts.
+    A bunch of these fonts are a font stack.
+    

@@ -1,0 +1,17 @@
+/*
+an example of the note.txt I mentioned parent child relations
+theres also grandparents, ancestors in css
+*/
+body{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 500px;
+}
+
+h1{
+    font-size: 100px;
+}
+
+p{
+    font-size: 200px;
+}

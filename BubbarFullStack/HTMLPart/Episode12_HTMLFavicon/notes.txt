@@ -1,0 +1,56 @@
+So far we have only coded stuff in the body portion
+
+Nothing in the head part was discussed nor the html etc
+now we will
+
+The head tag whatever is inside it is not visible in the head.
+All visible elements in a website are in the body.
+
+Head tags are used for SEO Search Engine Optimization
+
+all the meta stuff is used for SEO
+
+title tag in it updates the name in the browser when the page is opened
+
+And a link tag with an image for favicon can be used in the title too 
+to have it in the title like this:
+
+doing this: https://prnt.sc/KyF6joJT2-2s
+produces this: https://prnt.sc/tCts3zOUx8KU
+
+everything in html is styled using css
+then we link it with the css file using a link tag also like for the favicon too
+then we can alter that and change the elements up for that file.
+
+also in javascript you can link the file to a script.js and put an alert in it then
+link it to the html page and then you can view an alert by making it in the script.js
+just like the css file but for js now.
+
+Check the index.html code and the rest to see it in action.
+
+Now SEO
+
+Search Engine Optimization
+
+In the head theres a lot of meta tags which help for SEO
+It means our site will rank better on search engines like google, yahoo, bing, etc.
+
+You can put a lot of stuff int there and meta tags to make them much more recognizable
+for search engines.
+
+charset = "UTF-8" is a character set that is UTF 8 a lot of websites use this.
+It is used for multiple language support.
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+this means use the latest rendering engine
+
+
+<meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+this means whatever device screen or viewport we are using set the width to device width
+and set the initial scale of that viewport to 1.
+
+<meta name="description" content="Learn Full Stack Web Development: Master Course Master Course on Dynamic Programming, Master Coursed on Graph Algorithms />
+
+This is useful for browsers to rank sites up 
+
+<meta name = "keywords" content = "codehelp, Code with Babbar, codehelp love babbar, codehelp github, codehelp by love babbar ..."/>

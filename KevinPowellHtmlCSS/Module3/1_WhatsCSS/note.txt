@@ -1,0 +1,39 @@
+In CSS, we write rules.
+
+In CSS, we write rules.
+
+The styling rules that we create are made up of 
+a few different pieces:
+Selector, property, and value.
+
+-------
+We need to connect our css file
+we use a link tag to link the html to the css file
+In the head, we mention its a stylesheet within the link tag,
+rel = "stylesheet"
+and also mention its location via
+href = "theplacewherethecssfileisat"
+
+like this: <link href="css/style.css" rel = "stylesheet">
+----------------------------------------------------------------------------------
+while linking stuff....
+
+
+THIS IS NOT RIGHT, A LOT OF WEBSITES DO IT BUT NAH THIS AINT RIGHT ACCORDING TO KEVIN POWELL
+<p>You can head on over <a href="services.html">here</a> to learn more about our pest control services.</p>
+
+THIS IS RIGHT, Get it now?
+<p>Find out more <a href="services.html">about our pest control services</a>.</p>
+
+------------------------------------------------------
+NOTES:
+This is doing two things: linking our stylesheet to our
+HTML file, and also telling it that it is a stylesheet, 
+with the rel attribute, which is short for relationship.
+
+You don’t need to call your CSS file style.css. 
+Other common names are main.css and styles.css. 
+You can call it anything you’d like, just make sure 
+that you use that file name when linking it to your 
+HTML file. 
+

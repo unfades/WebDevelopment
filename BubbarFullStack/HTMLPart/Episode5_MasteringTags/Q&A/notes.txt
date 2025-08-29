@@ -1,0 +1,42 @@
+
+Q Whats a tag even?
+
+A its a markup entity which conveys structure, meaning, and or formatting. I got it.
+However the majority of decorations are with CSS
+
+Q Semantic Tags? Structure Tags? Formatting Tags? Name some.
+Semantic:
+h1-h6
+p
+a 
+ul and ol 
+img
+form 
+input
+
+Structure:
+html
+head
+body
+header
+main 
+aside
+footer 
+article
+section
+nav
+
+Formatting:
+b 
+i 
+a 
+s
+strong 
+em 
+sup 
+sub
+pre
+code
+
+Q Whats a self closing tag?
+

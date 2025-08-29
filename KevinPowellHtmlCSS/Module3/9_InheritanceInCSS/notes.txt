@@ -1,0 +1,56 @@
+You already know parent child
+from java
+so just like that in css
+the elements within body
+inherit from it
+
+meaning
+
+if I applied something to the body
+then all the elements within
+will have it also
+unless they overwrote that or something
+so apply to the parents
+and then override in the children
+
+User agent styles:
+btw, MOST elements inherit by default, however,
+some elements are going based on the default styling
+given by the browser, these are called user agent styles...
+
+So if you want an element to inherit
+and notice that it hasnt, then force it to inherit by
+using the value inherit, in its css property. example below
+
+anchor tag:
+a{
+    color: inherit;
+}
+
+by default anchor tags do not inherit color values in the property,
+however you can specify it to inherit based on your will by typing
+inherit as a value in its color property, etc.
+
+NOTE 
+
+Do not overwrite with px, use REM instead
+its rem in all lowercase... WHy? Because
+
+in rem r is for root
+
+So everything in our html file is a descendant of the root tag
+that is html
+
+therefore rem usage is warranted because 
+
+1 is a whole unit of rem and default size is  1 rem 
+
+1.5 rem is 1.5x bigger
+
+.5 rem is .5x smaller
+
+rem is considered a relative unit because it is relative to another value
+
+It is the industry standard. It works at base 16 so get used to it.
+
+Sizes become easy because each rem set is relative to the root html's 1 rem

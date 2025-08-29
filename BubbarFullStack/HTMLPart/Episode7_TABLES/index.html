@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+
+    </head>
+    <header>
+
+    </header>
+
+    <main>
+        <p>Mine: </p>
+        <table border = "1">
+            <thead>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td>Bill</td>
+                    <td>Male</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>1235</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>1236</td>
+                    <td>Olivia</td>
+                    <td>Female</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>1237</td>
+                    <td>Mia</td>
+                    <td>Female</td>
+                    <td>19</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Bubbars variation created by me-->
+         <p>Made it the same as bubbars at Example/index.html</p>
+        <table border = "1">
+            <thead>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td colspan = "3">Bill</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td rowspan = "3">17</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>Bubbar</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <td>Bill</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        <p>Now tried to make the table in second.html</p>
+        <table border = "1">
+            
+            <tbody>
+                <tr>
+                    <td>Column1</td>
+                    <td>Column2</td>
+                    <td>Column3</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2" colspan = "1">Row1 Cell1</td>
+                    <td>Row1 Cell 2</td>
+                    <td>Row1Cell3</td>
+                </tr>
+                <tr>
+                    <td>Row2Cell2</td>
+                    <td>Row2Cell3</td>
+                </tr>
+                <tr>
+                    <td colspan = "3">Row3 Cell 1</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Done the next one is the one from third.html</p>
+        <table border = "1">
+            <thead>
+                <th>No.</th>
+                <th>FullName</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder of Microsoft</td>
+                    <td>$1000</td>
+                    <td rowspan = "4">Company Founders</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder of Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder of Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>The Zucc</td>
+                    <td>Founder of Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan = "3">Total Expenses:</td>
+                    <!-- made it better with colspan = "2" -->
+                    <td colspan = "2">$4600</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>Now the fourth.html after this:</p>
+        <!-- Rather than adding rows and columns, just look how many rows 
+        Then customize accordingly unlike you did here by added 10 of everyrthing with it
+        Bubbars way is much faster by tbody>tr*10-->
+        <table border = "1">
+            <thead>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Street</th>
+                <th>Male</th>
+                <th>Female</th>
+                <th>Others</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan = "8">India</td>
+                    <td rowspan = "4">Kerala</td>
+                    <td rowspan = "2">Cochin</td>
+                    <td>New Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>main Street</td>
+                    <td>300</td>
+                    <td>288</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+
+                    <td rowspan = "2">Trivandrum</td>
+                    <td>Giru Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>TVK Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "4">Maharashtra</td>
+                    <td rowspan = "2">Mumbai</td>
+                    <td>Krisha Street</td>
+                    <td>700</td>
+                    <td>850</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Main Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+
+                </tr>
+                <tr>
+                    <td rowspan = "2">Surath</td>
+                    <td>New Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Billa Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">United States Of America</td>
+                    <td rowspan = "2">Alaska</td>
+                    <td rowspan = "2">AKA Central</td>
+                    <td>New Street</td>
+                    <td>200</td>
+                    <td>210</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Cross Street</td>
+                    <td>1000</td>
+                    <td>1050</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Again, this time bubbars style. very fast.</p>
+        <table border = "1">
+            <thead>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Street</th>
+                <th>Male</th>
+                <th>Female</th>
+                <th>Others</th>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td rowspan = "8">India</td>
+                    <td rowspan = "4">Kerala</td>
+                    <td rowspan = "2">Cochin</td>
+                    <td>New Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>6</td>
+                </tr>
+
+                <tr>
+                    <td>main Street</td>
+                    <td>300</td>
+                    <td>288</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">Trivandrum</td>
+                    <td>Giru Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>TVK Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "4">Maharashtra</td>
+                    <td rowspan = "2">Mumbai</td>
+                    <td>Krisha Street</td>
+                    <td>700</td>
+                    <td>850</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Main Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">Surath</td>
+                    <td>New Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Billa Street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">USA</td>
+                    <td rowspan = "2"> Alaska</td>
+                    <td rowspan = "2"> AKA Central</td>
+                    <td>New Street</td>
+                    <td>200</td>
+                    <td>210</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Cross Street</td>
+                    <td>1000</td>
+                    <td>1050</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- THIS WAS WAY FASTER, JUST DECLARE ROWS FIRST HOW MANY THERE ARE
+        NEXT ALL YOU GOTTA DO IS JUST PRETTY MUCH WORK ON THE TABLE DATAS
+        WHENEVER YOU DECLARE A TABLE DATA THAT COVERS MANY ROWS, ITS EXCLUDED FROM
+        THE NEXT ROWS YOU ADD DATA TO AND THEN YOU CAN ADD FURTHER DATA REMEMBERING
+        WHEN ITS rowspan attritbute ENDS -->
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
